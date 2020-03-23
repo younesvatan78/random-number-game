@@ -7,7 +7,7 @@ print(takenNum)
 while True:   
     if converted_input == takenNum:
         print('yay,Hit! (:')
-        again = input('try again? ')
+        again = input('try again?(y or n)')
         if again == 'y':
             converted_input = int(input("Try to guess the number: "))
         if again != 'y':
